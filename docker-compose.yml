@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+
+  nifi:
+    image: apache/nifi
+    ports:
+      - "8091:8080"
+      - "8010:8010"
